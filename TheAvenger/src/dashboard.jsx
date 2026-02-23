@@ -131,7 +131,7 @@ function dashboard() {
   })
   return (
     <>
-      {/* <Avengerprofile flexdirection="column" name={captainAmarica.hero} story={captainAmarica.story} realname={captainAmarica.realname} png={captainamaricapng} TextStroke={captainAmarica.TextStroke} colour1={captainAmarica.colour1} colour2={captainAmarica.colour2} rgb={captainAmarica.rgb} scale="scale(0.6)"/> */}
+      {/* <Avengerprofile flexdirection="row" name={captainAmarica.hero} story={captainAmarica.story} realname={captainAmarica.realname} png={captainamaricapng} TextStroke={captainAmarica.TextStroke} colour1={captainAmarica.colour1} colour2={captainAmarica.colour2} rgb={captainAmarica.rgb} scale="scale(0.6)"/> */}
 
     <button onClick={scrolltohome} ref={homebtn} style={{display: `${btn}`}} className='fixed z-200 rounded-2xl h-[4vw] w-[4vw] flex justify-center cursor-pointer items-center bottom-5 right-5 hover:bg-[linear-gradient(135deg,#0F172A,#1E1B4B)]'><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M452-244v-400L282-477l-42-43 241-241 241 241-42 42-168-168v402h-60Z"/></svg></button>
       <Poster poster={posters}/>
