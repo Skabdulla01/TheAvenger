@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+*{
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: linear-gradient(135deg,#0F172A,#1E1B4B);
+}
