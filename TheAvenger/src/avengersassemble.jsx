@@ -80,9 +80,9 @@ function avengersassemble() {
     <>
     <main ref={mainConatiner} className='relative overflow-hidden flex justify-center h-screen w-full bg-[linear-gradient(135deg,#0F172A,#1E1B4B)]'>
       <div className="absolute flex items-center justify-center h-screen w-full">
-        <img src={marvel} ref={marvellogo} className='scale-200' alt="marvel logo" />
+        <img src={marvel} ref={marvellogo} className='scale-200 max-[430px]:scale-125' alt="marvel logo" />
       </div>
-        <div className="h-screen w-full flex overflow-hidden">
+        <div className="h-screen w-full flex overflow-hidden max-[430px]:hidden">
             <div className="upanimation h-screen w-full flex justifly-center items-center overflow-hidden"><img className='h-screen scale-110 object-[60%_10%] object-cover brightness-55' src={hulkphoto} alt="hulkphoto" /></div>
             <div className="downanimation h-screen w-full flex justifly-center items-center overflow-hidden"><img className='h-screen scale-110 object-[39%_9%] object-cover brightness-55' src={thorphoto} alt="thorphoto" /></div>
             <div className="upanimation h-screen w-full flex justifly-center items-center overflow-hidden"><img className='h-screen scale-110 object-[46%_4%] object-cover brightness-55' src={ironmanphoto} alt="ironmanphoto" /></div>
@@ -90,7 +90,7 @@ function avengersassemble() {
             <div className="upanimation h-screen w-full flex justifly-center items-center overflow-hidden"><img className='h-screen scale-110 object-[58%_8%] object-cover brightness-55' src={blackwidowphoto} alt="blackwidowphoto" /></div>
             <div className="downanimation h-screen w-full flex justifly-center items-center overflow-hidden"><img className='h-screen scale-110 object-[50%_0%] object-cover brightness-55' src={hawkeyephoto} alt="hawkeyephoto" /></div>
         </div>
-        <div ref={zoomanimation} className="absolute -bottom-50 z-10"><img className='object-cover' src={avengerlogo} alt="avengerlogo" /></div>
+        <div ref={zoomanimation} className="absolute -bottom-50 z-10 max-[430px]:hidden"><img className='object-cover' src={avengerlogo} alt="avengerlogo" /></div>
     </main>
     </>
   )
