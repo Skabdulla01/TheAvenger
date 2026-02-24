@@ -92,7 +92,7 @@ function avengerprofile(props) {
             </div>
         </div>
         <div ref={txtanimation} className="h-[80vh] max-[430px]:h-[45vh] max-[430px]:w-[95%] w-[55%] flex flex-col justify-center">
-          <h3 className='text-[#ffffff] text-bold text-[3.5vw] max-[430px]:text-[7vw]' style={{ WebkitTextStroke: `2px ${props.TextStroke}` }}>{props.realname}</h3>
+          <h3 className='text-[#ffffff] text-bold text-[3.5vw] max-[430px]:text-[7vw]' style={{ WebkitTextStroke: `1px ${props.TextStroke}` }}>{props.realname}</h3>
           <p className='text-[#ffffff] text-[1.5vw] max-[430px]:text-[4vw] drop-shadow-xl'>{props.story}</p>
         </div>
       </div>

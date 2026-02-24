@@ -33,7 +33,7 @@ function avengersassemble() {
         end: "top 90%",
         toggleActions: "play none none reverse",
         scrub: 3,
-        markers: true
+        // markers: true
       }
     })
     gsap.from(".upanimation",{

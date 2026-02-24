@@ -138,75 +138,75 @@ function dashboard() {
       <Hero />
       <div ref={displayAvenger} className="relative h-screen w-full bg-transparent">
         <div className="absolute top-0 h-screen w-full flex flex-col justify-end p-[3vw]" >
-            <h2  className='text-[4.2vw] leading-none text-transparent [-webkit-text-stroke:2px_#FF1F26]'>There was an idea…</h2>
+            <h2  className='text-[4.2vw] max-[430px]:text-[9vw] leading-none text-transparent [-webkit-text-stroke:2px_#FF1F26]'>There was an idea…</h2>
             <div className="flex items-center">
-                <h2  className='text-[2.6vw] leading-none h-auto w-[12%] text-[#FFFFFF]'>To Bring Together a Group of</h2>
-                <h2 className='text-[9.7vw] leading-none text-transparent [-webkit-text-stroke:2px_#FF1F26]'>Remarkable</h2>
+                <h2  className='text-[2.6vw] max-[430px]:text-[5vw] leading-none h-auto w-[12%] max-[430px]:w-[45%] text-[#FFFFFF]'>To Bring Together a Group of</h2>
+                <h2 className='text-[9.7vw] max-[430px]:text-[15vw] leading-none text-transparent [-webkit-text-stroke:2px_#FF1F26]'>Remarkable</h2>
             </div>
-            <p  className='text-[2.6vw] leading-none text-[#FFFFFF]'>To see if they could become <span className='text-[4.2vw] leading-none text-transparent [-webkit-text-stroke:2px_#FF1F26]'>Something</span> more.</p>
+            <p className='text-[2.6vw] max-[430px]:text-[5vw] max-[430px]:text-right leading-none text-[#FFFFFF]'>To see if they could become <span className='text-[4.2vw] max-[430px]:text-[8vw] leading-none text-transparent [-webkit-text-stroke:2px_#FF1F26]'>Something</span> more.</p>
         </div>
       </div>
       <Avengerprofile flexdirection="row" name={captainAmarica.hero} story={captainAmarica.story} realname={captainAmarica.realname} png={captainamaricapng} TextStroke={captainAmarica.TextStroke} colour1={captainAmarica.colour1} colour2={captainAmarica.colour2} rgb={captainAmarica.rgb} scale="scale(0.6)"/>
       <div ref={displayCaptainamarica} className="relative h-screen w-full bg-transparent">
-        <div className="absolute top-0 h-screen w-full flex justify-center gap-[47vw] items-center" >
-          <div className="flex w-[20%] pl-[9vw] items-center">
-              <h2 className='text-[9.7vw] leading-none text-transparent [-webkit-text-stroke:2px_#0A2A66]'>I</h2>
-              <h2 className='text-[2.6vw] h-auto leading-none  text-[#0A2A66]'>can do this all</h2>
+        <div className="absolute top-0 h-screen w-full flex justify-center gap-[47vw] max-[430px]:gap-0 max-[430px]:flex-col items-center" >
+          <div className="flex w-[20%] max-[430px]:w-[60%] max-[430px]:text-center pl-[9vw] items-center">
+              <h2 className='text-[9.7vw] max-[430px]:text-[25vw] leading-none text-transparent [-webkit-text-stroke:2px_#0A2A66]'>I</h2>
+              <h2 className='text-[2.6vw] max-[430px]:text-[10vw] max-[430px]:w-[80%] h-auto leading-none  text-[#0A2A66]'>can do this all</h2>
           </div>
-          <div className="flex items-center">
-            <h2 className='text-[9.7vw] leading-none text-transparent [-webkit-text-stroke:2px_#0A2A66]'>Day</h2>
+          <div className="flex items-center max-[430px]:justify-center max-[430px]:w-[60%]">
+            <h2 className='text-[9.7vw] max-[430px]:text-[25vw] leading-none text-transparent [-webkit-text-stroke:2px_#0A2A66]'>Day</h2>
           </div>
       </div>
       </div>
       <Avengerprofile flexdirection="row-reverse" name={ironman.hero} story={ironman.story} realname={ironman.realname} png={ironmanpng} TextStroke={ironman.TextStroke} colour1={ironman.colour1} colour2={ironman.colour2} rgb={ironman.rgb} scale="scale(0.53)"/>
       <div ref={displayIronman} className="relative h-screen w-full bg-transparent">
         <div className="absolute top-0 h-screen w-full p-[3vw] flex flex-col justify-end" >
-          <h2 className='text-[4vw] leading-none text-[#B11313]'>I Am</h2>
-          <h2 className='text-[10vw] leading-none text-transparent [-webkit-text-stroke:2px_#B11313]'>IRONMAN</h2>
+          <h2 className='text-[4vw]  max-[430px]:text-[12vw] leading-none text-[#B11313]'>I Am</h2>
+          <h2 className='text-[10vw] max-[430px]:text-[20vw]  leading-none text-transparent [-webkit-text-stroke:2px_#B11313]'>IRONMAN</h2>
         </div>
       </div>
       <Avengerprofile flexdirection="row" name={thor.hero} story={thor.story} realname={thor.realname} png={thorpng} TextStroke={thor.TextStroke} colour1={thor.colour1} colour2={thor.colour2} rgb={thor.rgb} scale="scale(0.9)"/>
       <div ref={displayThor} className="relative h-screen w-full bg-transparent">
         <div className="absolute top-0 h-screen w-full flex flex-col" >
-      <div className="w-[38%] pt-[10vw] flex flex-col items-end">
+      <div className="w-[38%] max-[430px]:w-[45%] pt-[10vw] flex flex-col items-end">
         <div className="flex">
-            <h2 className='text-[2.6vw] flex items-end leading-none pb-3 text-[#1F4FD8]'>I am </h2>
-            <h2 className='text-[9.7vw] leading-none text-transparent [-webkit-text-stroke:2px_#1F4FD8]'>THOR</h2>
+            <h2 className='text-[2.6vw] max-[430px]:text-[5vw] flex items-end leading-none pb-3 text-[#1F4FD8]'>I am </h2>
+            <h2 className='text-[9.7vw] max-[430px]:text-[12vw] leading-none text-transparent [-webkit-text-stroke:2px_#1F4FD8]'>THOR</h2>
         </div>
-        <h2 className='text-[4vw] leading-none text-[#1F4FD8]'>son of Odin</h2>
+        <h2 className='text-[4vw] max-[430px]:text-[8vw] leading-none text-[#1F4FD8]'>son of Odin</h2>
       </div>
     </div>
       </div>
       <Avengerprofile flexdirection="row-reverse" name={blackWidow.hero} story={blackWidow.story} realname={blackWidow.realname} png={blackwidowpng} TextStroke={blackWidow.TextStroke} colour1={blackWidow.colour1} colour2={blackWidow.colour2} rgb={blackWidow.rgb} scale="scale(0.37)"/>
       <div ref={displayBlackwidow} className="relative h-screen w-full bg-transparent">
-        <div className="absolute top-0 h-screen w-full flex justify-center gap-[35vw] items-center" >
-                  <div className="flex items-start pl-[5vw] h-[55vh]">
-                      <div className="h-[30vh] flex ">
+        <div className="absolute top-0 h-screen w-full flex justify-center gap-[35vw] max-[430px]:gap-[25vw] items-center" >
+                  <div className="flex items-start pl-[5vw] max-[430px]:pl-0 h-[55vh]">
+                      <div className="h-[30vh] max-[430px]:h-[15vh] flex ">
                           <div className="flex items-start">
-                              <h2 className='text-[4vw] h-auto leading-none text-[#0A0A0A]'>At</h2>
+                              <h2 className='text-[4vw] max-[430px]:text-[6vw] h-auto leading-none text-[#0A0A0A]'>At</h2>
                           </div>
                           <div className="flex items-center">
-                              <h2 className='text-[4vw] h-auto leading-none text-[#0A0A0A]'>some</h2>
+                              <h2 className='text-[4vw] max-[430px]:text-[6vw] h-auto leading-none text-[#0A0A0A]'>some</h2>
                           </div>
                           <div className="flex items-end">
-                              <h2 className='text-[4vw] h-auto leading-none text-[#0A0A0A]'>point,</h2>
+                              <h2 className='text-[4vw] max-[430px]:text-[6vw] h-auto leading-none text-[#0A0A0A]'>point,</h2>
                           </div>
                       </div>
                   </div>
                   <div className="flex flex-col justify-center items-center">
-                      <h2 className='text-[3vw] h-auto leading-none  text-[#0A0A0A]'>we all</h2>
-                      <h2 className='text-[6vw] h-auto leading-none  text-[#0A0A0A]'>have to</h2>
-                      <h2 className='text-[9.7vw] leading-none text-transparent [-webkit-text-stroke:2px_#0A0A0A]'>Choose</h2>
+                      <h2 className='text-[3vw] max-[430px]:text-[5vw] h-auto leading-none  text-[#0A0A0A]'>we all</h2>
+                      <h2 className='text-[6vw] max-[430px]:text-[8vw] h-auto leading-none  text-[#0A0A0A]'>have to</h2>
+                      <h2 className='text-[9.7vw] max-[430px]:text-[12vw] leading-none text-transparent [-webkit-text-stroke:1px_#0A0A0A]'>Choose</h2>
                   </div>                
               </div>
       </div>
       <Avengerprofile flexdirection="row" name={hulk.hero} story={hulk.story} realname={hulk.realname} png={hulkpng} TextStroke={hulk.TextStroke} colour1={hulk.colour1} colour2={hulk.colour2} rgb={hulk.rgb} scale="scale(0.9)"/>
       <div ref={displayHulk} className="relative h-screen w-full bg-transparent">
         <div className="absolute top-0 h-screen w-full flex flex-col justify-center items-end" >
-          <div className="w-[47%]">
-            <h2 className='text-[9vw] leading-none text-[#5FAE3E]'>I’m</h2>
-            <h2 className='text-[9vw] leading-none text-[#5FAE3E]'>always</h2>
-            <h2 className='text-[12vw] leading-none text-transparent [-webkit-text-stroke:2px_#5FAE3E]'>Angry</h2>
+          <div className="w-[47%] max-[430px]:w-[60%]">
+            <h2 className='text-[9vw]  max-[430px]:text-[15vw] leading-none text-[#5FAE3E]'>I’m</h2>
+            <h2 className='text-[9vw]  max-[430px]:text-[15vw] leading-none text-[#5FAE3E]'>always</h2>
+            <h2 className='text-[12vw] max-[430px]:text-[20vw] leading-none text-transparent [-webkit-text-stroke:2px_#5FAE3E]'>Angry</h2>
           </div>
         </div>
       </div>
@@ -215,11 +215,11 @@ function dashboard() {
         <div className="absolute top-0 h-screen w-full flex justify-center items-center" >
         <div className="w-[80%] h-[95vh] flex justify-between ">
           <div className="h-full pb-20 flex flex-col justify-center">
-              <h2 className='text-[5vw] h-auto leading-none  text-[#6A0DAD]'>I’m just</h2>
-              <h2 className='text-[3.5vw] h-auto leading-none  text-[#6A0DAD]'>a guy with a</h2>
+              <h2 className='text-[5vw] max-[430px]:text-[10vw] h-auto leading-none  text-[#6A0DAD]'>I’m just</h2>
+              <h2 className='text-[3.5vw] max-[430px]:text-[7vw] h-auto leading-none  text-[#6A0DAD]'>a guy with a</h2>
           </div>
           <div className="flex items-end h-full">
-            <h2 className='text-[11vw] leading-none text-transparent [-webkit-text-stroke:3px_#6A0DAD]'>Bow</h2>
+            <h2 className='text-[11vw] max-[430px]:text-[22vw] leading-none text-transparent [-webkit-text-stroke:3px_#6A0DAD]'>Bow</h2>
           </div>
         </div>
       </div>
