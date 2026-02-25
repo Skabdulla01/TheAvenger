@@ -5,7 +5,7 @@ function poster(props) {
     <>
     <main className="fixed top-0 -z-10 h-screen w-full" >
         <div className="h-screen w-full">
-            <img src={props.poster} alt="Avengerposterimg" className='h-screen w-full overflow-hidden object-cover object-top brightness-35' />
+            <img src={props.poster} alt="Avengerposterimg" className='h-screen w-full overflow-hidden object-cover object-top brightness-55' />
         </div>
     </main>
     </>

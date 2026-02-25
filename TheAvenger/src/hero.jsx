@@ -24,7 +24,7 @@ function hero() {
           end: "+=700",
           scrub: 3,        
           pin: true,       
-          markers: true,   
+          // markers: true,   
         }
       })
         tl.fromTo(zoomIn.current,{  

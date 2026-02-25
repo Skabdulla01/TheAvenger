@@ -85,7 +85,7 @@ function avengerprofile(props) {
       <div className="flex h-screen w-[90%] justify-between max-[430px]:justify-center max-[430px]:!flex-col max-[430px]:items-center" style={{ flexDirection: `${props.flexdirection}` }}>
         <div className="relative flex justify-center items-center max-[430px]:w-[90%] w-[40%]"> 
           <div className="h-[45vw] max-[430px]:h-[40vh] w-full flex justify-center items-start">
-            <div ref={zoomcircle} className="w-[27vw] h-[27vw] max-[430px]:w-[60vw] max-[430px]:h-[60vw] rounded-full opacity-80" style={{background: `radial-gradient(circle, ${props.TextStroke} 0%, ${props.rgb} 100%)`}}></div>
+            <div ref={zoomcircle} className="w-[27vw] h-[27vw] max-[430px]:w-[65vw] max-[430px]:h-[65vw] rounded-full opacity-80" style={{background: `radial-gradient(circle, ${props.TextStroke} 0%, ${props.rgb} 100%)`}}></div>
           </div>
             <div ref={zoomanimation} className="absolute" style={{transform: props.scale}}>
               <img className='object-cover' src={props.png} alt="Captainamarica" />

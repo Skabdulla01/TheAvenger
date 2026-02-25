@@ -1,10 +1,16 @@
-import React from 'react'
-import Dashboard from './dashboard'
+import React, { Suspense } from "react";
+import Loading from "./loading";
+
+
+const Dashboard = React.lazy(() => import("./dashboard"));
 
 function App() {
+
   return (
     <>
-    <Dashboard />
+    <Suspense fallback={<Loading />}>
+        <Dashboard />
+      </Suspense>
     </>
   )
 }
